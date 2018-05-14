@@ -48,16 +48,19 @@
     text-align: left;
     color: #000000;
 }
+
 .form {
     float: right;
     margin-top: 150px;
     width: 50%;
 }
+
 .form div {
     width: 350px;
     margin: 0 auto;
 }
-.form h2{
+
+.form h2 {
     font-family: Roboto-Bold, sans-serif;
     font-size: 24px;
     font-weight: 500;
@@ -78,7 +81,8 @@
     padding-left: 25px;
     margin-bottom: 15px;
 }
-input[type="text"]::placeholder, [type="email"]::placeholder, [type="password"]::placeholder{
+
+input[type="text"]::placeholder, [type="email"]::placeholder, [type="password"]::placeholder {
     font-family: Roboto, sans-serif;
     font-size: 14px;
     font-weight: normal;

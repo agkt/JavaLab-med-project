@@ -37,7 +37,7 @@ body::-webkit-scrollbar-track {
 }
 
 .content .search input {
-    border:none;
+    border: none;
     width: 313px;
     height: 36px;
     border-radius: 2px;
@@ -93,7 +93,7 @@ body::-webkit-scrollbar-track {
     height: 14px;
 }
 
-.content .user-dialog .time-message{
+.content .user-dialog .time-message {
     font-family: Roboto, sans-serif;
     font-size: 12px;
     font-weight: normal;
@@ -125,7 +125,7 @@ body::-webkit-scrollbar-track {
     margin-top: -4px;
 }
 
-.content .messages h5{
+.content .messages h5 {
     margin-top: 315px;
     font-family: Roboto, sans-serif;
     font-size: 16px;
