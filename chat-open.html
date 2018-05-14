@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main-styles.css">
+    <link rel="stylesheet" href="css/chat-styles.css">
+</head>
+<body>
+<section class="header clearfix">
+    <a class="logo" href="./main-page.html">
+        <img src="img/logo.png">
+        <h3>Нейролингвистика</h3>
+    </a>
+    <a class="user-picture" href="./patient-profile.html"><img src="img/user.png"></a>
+    <a class="enroll" href="#">Записаться на прием</a>
+</section>
+<section class="navigation clearfix">
+    <ul>
+        <li><a href="./patient-profile.html">Профиль</a></li>
+        <li><a href="./questioning.html">Анкетирование</a></li>
+        <li><a href="./appointments.html">Назначения</a></li>
+        <li><a href="./chat.html">Чат</a></li>
+        <li><a href="">История болезни</a></li>
+    </ul>
+</section>
+
+<section class="content">
+    <div class="chat-block">
+        <div class="user-list">
+            <form name="search" class="search">
+                <input type="text" name="search" placeholder="Поиск...">
+            </form>
+
+            <div class="user-dialog">
+                <img src="img/user.png">
+                <h6 class="user-name">Иван Серебров - хирург</h6>
+                <span class="time-message">11:27</span>
+                <span class="user-message">Привет! Во сколько нам нужно встретиться</span>
+                <span class="new-message">1</span>
+            </div>
+            <div class="user-dialog">
+                <img src="img/user.png">
+                <h6 class="user-name">Inna Volohova - терапевт</h6>
+                <span class="time-message">9:27</span>
+                <span class="user-message">Инна, как дела?</span>
+            </div>
+            <div class="user-dialog">
+                <img src="img/user.png">
+                <h6 class="user-name">Олеся Скопинская</h6>
+                <span class="time-message">8:27</span>
+                <span class="user-message">Здравствуйте я бы хотела узнать</span>
+                <span class="new-message">1</span>
+            </div>
+            <div class="user-dialog">
+                <img src="img/user.png">
+                <h6 class="user-name">Егор Михайлов</h6>
+                <span class="time-message">7:27</span>
+                <span class="user-message">Егор, какой у вас уровень</span>
+            </div>
+            <div class="user-dialog">
+                <img src="img/user.png">
+                <h6 class="user-name">Вадим Белопряный</h6>
+                <span class="time-message">вчера</span>
+                <span class="user-message">Спасибо!</span>
+            </div>
+            <div class="user-dialog">
+                <img src="img/user.png">
+                <h6 class="user-name">Алексей - терапевт</h6>
+                <span class="time-message">вчера</span>
+                <span class="user-message">Привет! Во сколько нам нужно встретиться</span>
+            </div>
+            <div class="user-dialog">
+                <img src="img/user.png">
+                <h6 class="user-name">Ксения Бабушкина</h6>
+                <span class="time-message">вчера</span>
+                <span class="user-message">Постараюсь быть вовремя</span>
+                <span class="new-message">2</span>
+            </div>
+            <div class="user-dialog">
+                <img src="img/user.png">
+                <h6 class="user-name">Иван Серебров - хирург</h6>
+                <span class="time-message">вчера</span>
+                <span class="user-message">Привет! Во сколько нам нужно встретиться</span>
+            </div>
+            <div class="user-dialog">
+                <img src="img/user.png">
+                <h6 class="user-name">Иван Серебров - хирург</h6>
+                <span class="time-message">вчера</span>
+                <span class="user-message">Привет! Во сколько нам нужно встретиться</span>
+            </div>
+            <div class="user-dialog">
+                <img src="img/user.png">
+                <h6 class="user-name">Иван Серебров - хирург</h6>
+                <span class="time-message">вчера</span>
+                <span class="user-message">Привет! Во сколько нам нужно встретиться</span>
+            </div>
+        </div>
+        <div class="messages">
+            <div>
+                <h5>Выберите диалог чтобы начать общаться</h5>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+</body>
+</html>

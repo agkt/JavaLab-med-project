@@ -1,0 +1,139 @@
+::-webkit-scrollbar {
+    width: 3px;
+    background-color: #eeeeee;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #eeeeee;
+}
+
+.content {
+    width: 100%;
+    height: 800px;
+    background-color: #f2f3f6;
+    border-top: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.content .chat-block {
+    width: 80%;
+    height: 629px;
+    background-color: #ffffff;
+    border: solid 1px #eeeeee;
+    margin-top: 45px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content .user-list {
+    float: left;
+    width: 325px;
+    height: 625px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.content .search input {
+    border:none;
+    width: 313px;
+    height: 36px;
+    border-radius: 2px;
+    background-color: #f9f9f9;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.content .user-dialog {
+    height: 50px;
+    margin-top: 20px;
+    width: 305px;
+    padding-left: 8px;
+}
+
+.content .user-dialog img {
+    float: left;
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.content .user-dialog .user-name {
+    float: left;
+    font-family: Roboto-Bold, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #202020;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+.content .user-dialog .user-message {
+    float: left;
+    width: 176px;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #484848;
+    height: 14px;
+}
+
+.content .user-dialog .time-message{
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #999999;
+    float: right;
+    margin-top: 7px;
+}
+
+.content .user-dialog .new-message {
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #4b86f7;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 20px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: -4px;
+}
+
+.content .messages h5{
+    margin-top: 315px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+}

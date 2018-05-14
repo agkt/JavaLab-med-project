@@ -27,8 +27,8 @@
     <ul>
         <li><a href="./patient-profile.html">Профиль</a></li>
         <li><a href="./questioning.html">Анкетирование</a></li>
-        <li><a href="">Назначения</a></li>
-        <li><a href="">Чат</a></li>
+        <li><a href="./appointments.html">Назначения</a></li>
+        <li><a href="./chat.html">Чат</a></li>
         <li><a href="">История болезни</a></li>
     </ul>
 </section>
@@ -99,5 +99,12 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
         integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
+
+<script>
+    var phoneMask = new IMask(
+            document.getElementById('phone'), {
+                mask: '+{7}(000)000-00-00'
+            });
+</script>
 </body>
 </html>
