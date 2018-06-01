@@ -75,6 +75,9 @@ body::-webkit-scrollbar-track {
     color: #202020;
     margin-bottom: 8px;
     margin-top: 5px;
+    width: 189px;
+    height: 17px;
+    overflow: hidden
 }
 
 .content .user-dialog .user-message {
