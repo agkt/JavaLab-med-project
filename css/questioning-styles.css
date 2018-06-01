@@ -5,20 +5,32 @@
 
 .content .questioning-block {
     height: 320px;
+    margin-bottom: 60px;
+}
+
+.content .questioning-picture {
+    width: 40%;
+    float: left;
     border-radius: 5px;
-    background-color: #4b86f7;
-    border: solid 1px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(218, 229, 240, 1);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(218, 229, 240, 1);
+    box-shadow: 0px 0px 17px 0px rgba(218, 229, 240, 1);
+}
+
+.content .questioning-picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 .content .description {
     float: right;
     width: 52%;
-    margin-top: 60px;
+    margin-top: 45px;
 }
 
 .content h3 {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto-Bold, sans-serif;
     font-size: 26px;
     font-weight: 500;
     font-style: normal;
@@ -26,7 +38,7 @@
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
-    color: #ffffff;
+    color: rgba(0, 0, 0, 0.87);
     float: left;
 }
 
@@ -39,7 +51,7 @@
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
-    color: #ffffff;
+    color: rgba(0, 0, 0, 0.87);
     margin-top: 25px;
     float: left;
     width: 450px;
@@ -49,7 +61,7 @@
     width: 227px;
     height: 50px;
     border-radius: 5px;
-    border: solid 1px #ffffff;
+    border: solid 1px rgba(0, 0, 0, 0.87);
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -58,7 +70,7 @@
     line-height: 50px;
     letter-spacing: normal;
     text-align: center;
-    color: #ffffff;
+    color: rgba(0, 0, 0, 0.87);
     margin-top: 40px;
     float: left;
     cursor: pointer;
@@ -70,7 +82,7 @@
 }
 
 .test h3 {
-    font-family: Roboto-Bold,sans-serif;
+    font-family: Roboto-Bold, sans-serif;
     font-size: 26px;
     font-weight: 500;
     font-style: normal;
@@ -83,7 +95,7 @@
 }
 
 .test h5 {
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
@@ -113,3 +125,4 @@
     height: 50px;
     margin-top: 20px;
 }
+

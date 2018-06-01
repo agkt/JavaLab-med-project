@@ -37,7 +37,7 @@ body::-webkit-scrollbar-track {
 }
 
 .content .search input {
-    border:none;
+    border: none;
     width: 313px;
     height: 36px;
     border-radius: 2px;
@@ -75,6 +75,9 @@ body::-webkit-scrollbar-track {
     color: #202020;
     margin-bottom: 8px;
     margin-top: 5px;
+    width: 189px;
+    height: 17px;
+    overflow: hidden
 }
 
 .content .user-dialog .user-message {
@@ -93,7 +96,7 @@ body::-webkit-scrollbar-track {
     height: 14px;
 }
 
-.content .user-dialog .time-message{
+.content .user-dialog .time-message {
     font-family: Roboto, sans-serif;
     font-size: 12px;
     font-weight: normal;
@@ -125,7 +128,7 @@ body::-webkit-scrollbar-track {
     margin-top: -4px;
 }
 
-.content .messages h5{
+.content .messages h5 {
     margin-top: 315px;
     font-family: Roboto, sans-serif;
     font-size: 16px;
