@@ -34,9 +34,12 @@
 </section>
 <section class="profile">
     <form class="clearfix">
-        <div class="clearfix">
-            <label for="photo" id="photo-label">Фото</label>
-            <input class="add-photo" id="photo" type="file">
+
+        <label for="photo" id="photo-label">Фото</label>
+        <div class="add-photo">
+            <h5>Перетяните сюда файл или выберите из папки</h5>
+            <button id="load">Выбрать фото</button>
+            <input id="photo" type="file">
         </div>
         <div class="clearfix">
             <label for="name" id="name-label">ФИО</label>
@@ -47,31 +50,24 @@
 
         <div class="clearfix">
             <label for="day" id="day-label">Дата рождения</label>
-            <input id="year" type="number" class="form-control" placeholder="2017">
-            <select id="month" class="form-control">
-                <option>Январь</option>
-                <option>Февраль</option>
-                <option>Март</option>
-                <option>Апрель</option>
-                <option>Май</option>
-                <option>Июнь</option>
-                <option>Июль</option>
-                <option>Август</option>
-                <option>Сентябрь</option>
-                <option>Октябрь</option>
-                <option>Ноябрь</option>
-                <option>Декабрь</option>
-            </select>
-            <input id="day" type="number" class="form-control" placeholder="1">
+            <input id="day" type="date" class="form-control" >
         </div>
 
         <div class="clearfix">
             <label id="group-label">Группа крови</label>
             <div class="blood-type clearfix">
-                <div class="first-type">1</div>
-                <div class="second-type">2</div>
-                <div class="third-type">3</div>
-                <div class="fourth-type">4</div>
+                <div class="first-type" onclick="return ChangeColor(this);">1</div>
+                <div class="second-type" onclick="return ChangeColor(this);">2</div>
+                <div class="third-type" onclick="return ChangeColor(this);">3</div>
+                <div class="fourth-type" onclick="return ChangeColor(this);">4</div>
+            </div>
+        </div>
+
+        <div class="clearfix">
+            <label id="rhesus-label">Резус фактор</label>
+            <div class="blood-type clearfix">
+                <div class="first-type" onclick="return ChangeColor(this);">+</div>
+                <div class="second-type" onclick="return ChangeColor(this);">—</div>
             </div>
         </div>
 
@@ -100,10 +96,23 @@
         crossorigin="anonymous"></script>
 
 <script>
+    function ChangeColor(Element) {
+        if (Element.style.background == '#ffffff' && Element.style.color == 'rgba(0, 0, 0, 0.3)') {
+            Element.style.background = '#ec445a';
+            Element.style.color = 'white';
+        }
+        else Element.style.background = '#ec445a';
+        Element.style.color = 'white';
+        return false;
+    }
+</script>
+
+<script>
     var phoneMask = new IMask(
             document.getElementById('phone'), {
                 mask: '+{7}(000)000-00-00'
             });
 </script>
+
 </body>
 </html>
