@@ -1,5 +1,7 @@
 .header-log {
-    margin-bottom: 130px;
+    margin-top: 70px;
+    margin-left: 8%;
+    float: left;
 }
 
 .header-log h3 {
@@ -16,6 +18,53 @@
     color: rgba(0, 0, 0, 0.8);
     text-transform: uppercase;
     cursor: pointer;
+}
+
+.label {
+    float: left;
+    margin-left: 3%;
+}
+
+.oval1 {
+    position: absolute;
+    right: 0;
+    opacity: 99;
+    width: 597px;
+    height: 580px;
+    background-color: #2e72f5;
+    float: right;
+    webkit-clip-path: circle(66% at 86% 31%);
+    clip-path: circle(66% at 86% 31%);
+}
+.oval2 {
+    width: 443px;
+    height: 179px;
+    background-color: rgba(236, 68, 90, 0.1);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-clip-path: circle(88% at 33% 190%);
+    clip-path: circle(88% at 33% 190%)
+}
+.oval3 {
+    width: 92px;
+    height: 184px;
+    background-color: #ec445a;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    -webkit-clip-path: circle(50% at 100% 50%);
+    clip-path: circle(50% at 100% 50%);
+}
+
+.oval4 {
+    position: absolute;
+    width: 528px;
+    height: 222px;
+    right: 15%;
+    background-color: #f7ce46;
+    -webkit-clip-path: circle(55% at 50% -42%);
+    clip-path: circle(55% at 50% -42%);
 }
 
 .doctors a {
@@ -36,6 +85,7 @@
     margin: 0 auto;
     margin-bottom: 100px;
 }
+
 .doctors .col-md-3 {
     margin-bottom: 55px;
     cursor: pointer;
@@ -51,14 +101,13 @@
 }
 
 .content {
-    width: 80%;
-    margin: 70px auto auto auto;
+    height: 666px;
+    position: relative;
 }
 
 .content h1 {
-    margin-bottom: 30px;
+    margin-top: 130px;
     width: 626px;
-    height: 180px;
     font-family: Roboto-Bold, sans-serif;
     font-size: 48px;
     font-weight: bold;
@@ -72,6 +121,7 @@
 
 .content h5 {
     margin-bottom: 25px;
+    margin-top: 15px;
     font-family: Roboto, sans-serif;
     font-size: 18px;
     font-weight: normal;
@@ -116,7 +166,6 @@
     border-radius: 4px;
     background-color: rgba(75, 134, 247, 0.05);
     margin-right: 36px;
-    margin-bottom: 25px;
 }
 
 .slider-list .col-md-2:hover {
@@ -143,16 +192,21 @@
     cursor: default;
 }
 
+.principles {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+}
+
 .principles h3 {
     font-size: 40px;
-    font-weight: bold;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
     color: rgba(0, 0, 0, 0.87);
-    margin: 100px auto;
+    margin: 100px auto 50px auto;
 }
 
 .principles img {
@@ -163,7 +217,7 @@
 .principles h5 {
     width: 152px;
     height: 42px;
-    font-family: Roboto-Bold, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 18px;
     font-weight: 500;
     font-style: normal;
@@ -177,7 +231,7 @@
 
 .principles .col-md-4 {
     text-align: center;
-    border-right: 3px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
     height: 150px;
     margin-bottom: 105px;
 }
@@ -186,7 +240,7 @@
     border-right: none;
 }
 
-.doc-description{
+.doc-description {
     background-color: #ffffff;
     border: solid 1px rgba(0, 0, 0, 0.1);
 }
@@ -230,6 +284,10 @@
         flex: 0 0 260px;
         margin-right: 25px;
     }
+}
+
+@media (min-width: 1495px) {
+
 }
 
 .doctors .col-md-3:hover {

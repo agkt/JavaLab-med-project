@@ -35,18 +35,64 @@
 }
 
 .profile .add-photo {
+    position: relative;
     float: right;
     height: 120px;
+    width: 393px;
+    margin-bottom: 60px;
     border-radius: 5px;
     border: dashed 1px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
 }
 
-.profile .add-photo {
+.profile .add-photo h5 {
+    width: 209px;
+    height: 32px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+}
+
+.profile .add-photo button {
+    width: 125px;
+    height: 30px;
     border-radius: 5px;
-    border: dashed 1px rgba(0, 0, 0, 0.1);
-    margin-bottom: 60px;
-    padding-top: 45px;
-    padding-left: 70px
+    background-color: rgba(75, 134, 247, 0.1);
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.54);
+    border: none;
+    outline: none;
+}
+.profile .add-photo button:active {
+    border: none;
+    outline: none;
+}
+
+.profile .add-photo input[type='file'] {
+    position: absolute;
+    height: 120px;
+    width: 393px;
+    right: 0;
+    top: 0;
+    letter-spacing: 10em;
+    opacity: 0;
+    cursor: pointer;
 }
 
 .blood-type {
@@ -54,7 +100,7 @@
 }
 
 .blood-type div {
-    margin-top: 40px;
+    background: #ffffff;
     float: left;
     width: 60px;
     height: 50px;
@@ -65,28 +111,21 @@
     text-align: center;
     line-height: 48px;
     font-family: Roboto, sans-serif;
-    font-size: 14px;;
+    font-size: 18px;;
     color: rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
 
 .blood-type div:last-child {
-    margin-right: 95px;
+    margin-right: 0;
 }
-
 .blood-type div:hover {
-    background-color: #ec445a;
-    color: #ffffff;
-}
-
-.blood-type div:active {
-    background-color: #ec445a;
-    color: #ffffff;
+    background: #ec445a;
+    color: #fff;
 }
 
 .form-buttons {
     float: right;
-    margin-right: 95px;
     margin-bottom: 100px;
 }
 
@@ -95,8 +134,6 @@
 }
 
 #day {
-    width: 60px;
-    margin-right: 20px;
     margin-top: 40px;
 }
 
@@ -113,7 +150,6 @@
 
 #phone {
     width: 300px;
-    margin-right: 95px;
     margin-bottom: 50px;
 }
 
@@ -122,15 +158,15 @@
 }
 
 #name-label {
-    line-height: 50px;
+    margin-top: 70px;
 }
 
 #day-label {
     line-height: 130px;
 }
 
-#group-label {
-    line-height: 125px;
+#group-label, #rhesus-label {
+    margin-top: 15px;
 }
 
 #phone-label {
