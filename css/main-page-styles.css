@@ -40,7 +40,9 @@
     width: 443px;
     height: 179px;
     background-color: rgba(236, 68, 90, 0.1);
-    float: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     -webkit-clip-path: circle(88% at 33% 190%);
     clip-path: circle(88% at 33% 190%)
 }
@@ -48,7 +50,9 @@
     width: 92px;
     height: 184px;
     background-color: #ec445a;
-    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     -webkit-clip-path: circle(50% at 100% 50%);
     clip-path: circle(50% at 100% 50%);
 }
@@ -97,7 +101,8 @@
 }
 
 .content {
-
+    height: 666px;
+    position: relative;
 }
 
 .content h1 {
@@ -279,6 +284,10 @@
         flex: 0 0 260px;
         margin-right: 25px;
     }
+}
+
+@media (min-width: 1495px) {
+
 }
 
 .doctors .col-md-3:hover {

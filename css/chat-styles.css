@@ -9,7 +9,7 @@ body::-webkit-scrollbar-track {
 
 .content {
     width: 100%;
-    height: 800px;
+    height: 920px;
     background-color: #f2f3f6;
     border-top: 1px solid rgba(0, 0, 0, 0.1)
 }

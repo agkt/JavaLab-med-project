@@ -117,12 +117,15 @@
 }
 
 .blood-type div:last-child {
-    margin-right: 95px;
+    margin-right: 0;
+}
+.blood-type div:hover {
+    background: #ec445a;
+    color: #fff;
 }
 
 .form-buttons {
     float: right;
-    margin-right: 95px;
     margin-bottom: 100px;
 }
 
@@ -147,7 +150,6 @@
 
 #phone {
     width: 300px;
-    margin-right: 95px;
     margin-bottom: 50px;
 }
 

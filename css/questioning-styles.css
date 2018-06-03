@@ -126,3 +126,28 @@
     margin-top: 20px;
 }
 
+@media (min-width: 1500px) and  (max-width: 1760px){
+    .content .questioning-picture {
+        width: 38%;
+    }
+    .content .description {
+        float: right;
+        width: 48%;
+    }
+    .content .questioning-block {
+        height: 340px;
+    }
+}
+@media (min-width: 1760px) {
+    .content .questioning-picture {
+        width: 40%;
+    }
+    .content .questioning-block {
+        height: 410px;
+    }
+    .content .description {
+        margin-top: 78px;
+        width: 44%;
+    }
+}
+

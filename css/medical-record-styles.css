@@ -74,7 +74,7 @@ button:focus {
     cursor: default;
 }
 
-.illness-list button, .doctors button, .schedule button {
+.schedule button {
     width: 161px;
     height: 50px;
     border-radius: 5px;
@@ -90,7 +90,7 @@ button:focus {
     letter-spacing: normal;
     text-align: center;
     color: #4b86f7;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 70px;
     cursor: pointer;
 }
@@ -317,5 +317,14 @@ button:focus {
 @media (min-width: 768px) {
     .schedule .col-md-2 {
         max-width: 100%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .schedule .col-md-2 h6 {
+        padding-top: 16%;
+    }
+    .schedule .col-md-2:first-child h6 {
+        padding-top: 0;
     }
 }

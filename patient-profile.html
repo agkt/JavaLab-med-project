@@ -29,7 +29,6 @@
         <li><a href="./questioning.html">Анкетирование</a></li>
         <li><a href="./appointments.html">Назначения</a></li>
         <li><a href="./chat.html">Чат</a></li>
-        <li><a href="">История болезни</a></li>
     </ul>
 </section>
 <section class="profile">
@@ -71,10 +70,6 @@
             </div>
         </div>
 
-        <div class="clearfix">
-            <label for="phone" id="phone-label">Номер телефона</label>
-            <input id="phone" type="text" class="form-control bfh-phone" data-format="+1 (ddd) ddd-dddd">
-        </div>
 
         <div class="form-buttons">
             <button type="button" class="btn btn-primary">Сохранить</button>
@@ -107,12 +102,6 @@
     }
 </script>
 
-<script>
-    var phoneMask = new IMask(
-            document.getElementById('phone'), {
-                mask: '+{7}(000)000-00-00'
-            });
-</script>
 
 </body>
 </html>
